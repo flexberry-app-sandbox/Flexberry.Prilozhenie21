@@ -28,6 +28,13 @@
           "caption": "Справочник единицы измерения",
           "title": "",
           "children": null
+        },
+        {
+          "link": "i-i-s-prilozhenie2-спр-тип-транс-ср-l",
+          "menuName": null,
+          "caption": "Справочник типы транспортного средства",
+          "title": "",
+          "children": null
         }
       ]
     }

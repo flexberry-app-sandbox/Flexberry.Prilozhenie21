@@ -13,6 +13,19 @@ CREATE TABLE [СпрЕдИзмер] (
 	 PRIMARY KEY ([primaryKey]))
 
 
+CREATE TABLE [СпрТипТрансСр] (
+
+	 [primaryKey] UNIQUEIDENTIFIER  NOT NULL,
+
+	 [ВместВКубМ] REAL  NULL,
+
+	 [Код] INT  NULL,
+
+	 [Описание] VARCHAR(255)  NULL,
+
+	 PRIMARY KEY ([primaryKey]))
+
+
 CREATE TABLE [СпрКонтрАг] (
 
 	 [primaryKey] UNIQUEIDENTIFIER  NOT NULL,

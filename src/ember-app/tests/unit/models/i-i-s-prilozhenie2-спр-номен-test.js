@@ -6,6 +6,7 @@ moduleForModel('i-i-s-prilozhenie2-спр-номен', 'Unit | Model | i-i-s-pri
     'model:i-i-s-prilozhenie2-спр-ед-измер',
     'model:i-i-s-prilozhenie2-спр-контр-аг',
     'model:i-i-s-prilozhenie2-спр-номен',
+    'model:i-i-s-prilozhenie2-спр-тип-транс-ср',
     'validator:ds-error',
     'validator:presence',
     'validator:number',

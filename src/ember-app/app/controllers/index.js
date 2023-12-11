@@ -28,13 +28,19 @@ export default Controller.extend({
             link: 'i-i-s-prilozhenie2-спр-номен-l',
             caption: i18n.t('forms.application.sitemap.prilozhenie2.i-i-s-prilozhenie2-спр-номен-l.caption'),
             title: i18n.t('forms.application.sitemap.prilozhenie2.i-i-s-prilozhenie2-спр-номен-l.title'),
-            icon: 'table',
+            icon: 'address card',
             children: null
           }, {
             link: 'i-i-s-prilozhenie2-спр-ед-измер-l',
             caption: i18n.t('forms.application.sitemap.prilozhenie2.i-i-s-prilozhenie2-спр-ед-измер-l.caption'),
             title: i18n.t('forms.application.sitemap.prilozhenie2.i-i-s-prilozhenie2-спр-ед-измер-l.title'),
-            icon: 'tasks',
+            icon: 'folder open',
+            children: null
+          }, {
+            link: 'i-i-s-prilozhenie2-спр-тип-транс-ср-l',
+            caption: i18n.t('forms.application.sitemap.prilozhenie2.i-i-s-prilozhenie2-спр-тип-транс-ср-l.caption'),
+            title: i18n.t('forms.application.sitemap.prilozhenie2.i-i-s-prilozhenie2-спр-тип-транс-ср-l.title'),
+            icon: 'briefcase',
             children: null
           }]
         }

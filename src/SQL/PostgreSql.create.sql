@@ -10,6 +10,14 @@ CREATE TABLE СпрЕдИзмер (
  PRIMARY KEY (primaryKey));
 
 
+CREATE TABLE СпрТипТрансСр (
+ primaryKey UUID NOT NULL,
+ Код INT NULL,
+ Описание VARCHAR(255) NULL,
+ ВместВКубМ REAL NULL,
+ PRIMARY KEY (primaryKey));
+
+
 CREATE TABLE СпрКонтрАг (
  primaryKey UUID NOT NULL,
  Код INT NULL,

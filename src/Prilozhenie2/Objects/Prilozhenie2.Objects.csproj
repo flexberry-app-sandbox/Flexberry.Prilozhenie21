@@ -114,6 +114,9 @@
     <Compile Include="СпрНомен.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="СпрТипТрансСр.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
