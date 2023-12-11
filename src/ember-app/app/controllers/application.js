@@ -28,19 +28,19 @@ export default Controller.extend({
             link: 'i-i-s-prilozhenie2-спр-контр-аг-l',
             caption: i18n.t('forms.application.sitemap.prilozhenie2.i-i-s-prilozhenie2-спр-контр-аг-l.caption'),
             title: i18n.t('forms.application.sitemap.prilozhenie2.i-i-s-prilozhenie2-спр-контр-аг-l.title'),
-            icon: 'table',
+            icon: 'chart line',
             children: null
           }, {
             link: 'i-i-s-prilozhenie2-спр-номен-l',
             caption: i18n.t('forms.application.sitemap.prilozhenie2.i-i-s-prilozhenie2-спр-номен-l.caption'),
             title: i18n.t('forms.application.sitemap.prilozhenie2.i-i-s-prilozhenie2-спр-номен-l.title'),
-            icon: 'list',
+            icon: 'edit',
             children: null
           }, {
             link: 'i-i-s-prilozhenie2-спр-ед-измер-l',
             caption: i18n.t('forms.application.sitemap.prilozhenie2.i-i-s-prilozhenie2-спр-ед-измер-l.caption'),
             title: i18n.t('forms.application.sitemap.prilozhenie2.i-i-s-prilozhenie2-спр-ед-измер-l.title'),
-            icon: 'folder',
+            icon: 'chart bar',
             children: null
           }, {
             link: 'i-i-s-prilozhenie2-спр-тип-транс-ср-l',
@@ -52,13 +52,13 @@ export default Controller.extend({
             link: 'i-i-s-prilozhenie2-спр-объект-стр-l',
             caption: i18n.t('forms.application.sitemap.prilozhenie2.i-i-s-prilozhenie2-спр-объект-стр-l.caption'),
             title: i18n.t('forms.application.sitemap.prilozhenie2.i-i-s-prilozhenie2-спр-объект-стр-l.title'),
-            icon: 'chart line',
+            icon: 'archive',
             children: null
           }, {
             link: 'i-i-s-prilozhenie2-спр-трансп-ср-l',
             caption: i18n.t('forms.application.sitemap.prilozhenie2.i-i-s-prilozhenie2-спр-трансп-ср-l.caption'),
             title: i18n.t('forms.application.sitemap.prilozhenie2.i-i-s-prilozhenie2-спр-трансп-ср-l.title'),
-            icon: 'folder',
+            icon: 'archive',
             children: null
           }]
         }
