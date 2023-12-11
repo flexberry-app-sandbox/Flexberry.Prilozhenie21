@@ -28,6 +28,27 @@ CREATE TABLE "СпрЕдИзмер"
 ) ;
 
 
+CREATE TABLE "СпрТранспСр"
+(
+
+	"primaryKey" RAW(16) NOT NULL,
+
+	"Код" NUMBER(10) NULL,
+
+	"ВидПеревоз" NVARCHAR2(255) NULL,
+
+	"ГосНомер" NVARCHAR2(255) NULL,
+
+	"ГрузПодъемВТон" NVARCHAR2(255) NULL,
+
+	"Марка" NVARCHAR2(255) NULL,
+
+	"ЛицеКартНомер" NUMBER(10) NULL,
+
+	 PRIMARY KEY ("primaryKey")
+) ;
+
+
 CREATE TABLE "СпрТипТрансСр"
 (
 

@@ -31,6 +31,11 @@ Router.map(function () {
   { path: 'i-i-s-prilozhenie2-спр-тип-транс-ср-e/:id' });
   this.route('i-i-s-prilozhenie2-спр-тип-транс-ср-e.new',
   { path: 'i-i-s-prilozhenie2-спр-тип-транс-ср-e/new' });
+  this.route('i-i-s-prilozhenie2-спр-трансп-ср-l');
+  this.route('i-i-s-prilozhenie2-спр-трансп-ср-e',
+  { path: 'i-i-s-prilozhenie2-спр-трансп-ср-e/:id' });
+  this.route('i-i-s-prilozhenie2-спр-трансп-ср-e.new',
+  { path: 'i-i-s-prilozhenie2-спр-трансп-ср-e/new' });
 });
 
 export default Router;

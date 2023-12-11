@@ -42,6 +42,13 @@
           "caption": "Справочник объекты строительства",
           "title": "",
           "children": null
+        },
+        {
+          "link": "i-i-s-prilozhenie2-спр-трансп-ср-l",
+          "menuName": null,
+          "caption": "Справочник транспортные средства",
+          "title": "",
+          "children": null
         }
       ]
     }

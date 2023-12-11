@@ -1,6 +1,6 @@
 import { moduleForModel, test } from 'ember-qunit';
 
-moduleForModel('i-i-s-prilozhenie2-спр-номен', 'Unit | Model | i-i-s-prilozhenie2-спр-номен', {
+moduleForModel('i-i-s-prilozhenie2-спр-трансп-ср', 'Unit | Model | i-i-s-prilozhenie2-спр-трансп-ср', {
   // Specify the other units that are required for this test.
   needs: [
     'model:i-i-s-prilozhenie2-спр-ед-измер',

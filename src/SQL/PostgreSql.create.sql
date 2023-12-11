@@ -17,6 +17,17 @@ CREATE TABLE СпрЕдИзмер (
  PRIMARY KEY (primaryKey));
 
 
+CREATE TABLE СпрТранспСр (
+ primaryKey UUID NOT NULL,
+ Код INT NULL,
+ ВидПеревоз VARCHAR(255) NULL,
+ ГосНомер VARCHAR(255) NULL,
+ ГрузПодъемВТон VARCHAR(255) NULL,
+ Марка VARCHAR(255) NULL,
+ ЛицеКартНомер INT NULL,
+ PRIMARY KEY (primaryKey));
+
+
 CREATE TABLE СпрТипТрансСр (
  primaryKey UUID NOT NULL,
  Код INT NULL,

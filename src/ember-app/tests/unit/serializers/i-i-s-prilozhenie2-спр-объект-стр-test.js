@@ -14,6 +14,7 @@ moduleForModel('i-i-s-prilozhenie2-спр-объект-стр', 'Unit | Serializ
     'model:i-i-s-prilozhenie2-спр-номен',
     'model:i-i-s-prilozhenie2-спр-объект-стр',
     'model:i-i-s-prilozhenie2-спр-тип-транс-ср',
+    'model:i-i-s-prilozhenie2-спр-трансп-ср',
     'validator:ds-error',
     'validator:presence',
     'validator:number',

@@ -24,6 +24,25 @@ CREATE TABLE [СпрЕдИзмер] (
 	 PRIMARY KEY ([primaryKey]))
 
 
+CREATE TABLE [СпрТранспСр] (
+
+	 [primaryKey] UNIQUEIDENTIFIER  NOT NULL,
+
+	 [ВидПеревоз] VARCHAR(255)  NULL,
+
+	 [ГосНомер] VARCHAR(255)  NULL,
+
+	 [ГрузПодъемВТон] VARCHAR(255)  NULL,
+
+	 [Код] INT  NULL,
+
+	 [ЛицеКартНомер] INT  NULL,
+
+	 [Марка] VARCHAR(255)  NULL,
+
+	 PRIMARY KEY ([primaryKey]))
+
+
 CREATE TABLE [СпрТипТрансСр] (
 
 	 [primaryKey] UNIQUEIDENTIFIER  NOT NULL,
