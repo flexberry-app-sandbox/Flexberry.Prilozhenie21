@@ -1,0 +1,22 @@
+﻿{
+  "applicationCaption": "Prilozhenie2",
+  "applicationTitle": "Prilozhenie2",
+  "items": [
+    {
+      "link": null,
+      "menuName": "prilozhenie2",
+      "caption": "Prilozhenie2",
+      "title": "Prilozhenie2",
+      "children": [
+        {
+          "link": "i-i-s-prilozhenie2-спр-контр-аг-l",
+          "menuName": null,
+          "caption": "Справочник контрагенты",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

@@ -1,0 +1,1 @@
+docker-compose -p prilozhenie2 down
