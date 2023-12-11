@@ -126,6 +126,10 @@ $.extend(true, translations, {
           'i-i-s-prilozhenie2-спр-трансп-ср-l': {
             caption: 'Справочник транспортные средства',
             title: ''
+          },
+          'i-i-s-prilozhenie2-спр-виды-работ-l': {
+            caption: 'Справочник виды работ',
+            title: ''
           }
         }
       }

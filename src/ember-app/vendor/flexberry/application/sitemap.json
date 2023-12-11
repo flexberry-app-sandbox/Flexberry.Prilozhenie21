@@ -49,6 +49,13 @@
           "caption": "Справочник транспортные средства",
           "title": "",
           "children": null
+        },
+        {
+          "link": "i-i-s-prilozhenie2-спр-виды-работ-l",
+          "menuName": null,
+          "caption": "Справочник виды работ",
+          "title": "",
+          "children": null
         }
       ]
     }

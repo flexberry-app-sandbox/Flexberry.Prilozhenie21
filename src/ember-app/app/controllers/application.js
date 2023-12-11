@@ -28,37 +28,43 @@ export default Controller.extend({
             link: 'i-i-s-prilozhenie2-спр-контр-аг-l',
             caption: i18n.t('forms.application.sitemap.prilozhenie2.i-i-s-prilozhenie2-спр-контр-аг-l.caption'),
             title: i18n.t('forms.application.sitemap.prilozhenie2.i-i-s-prilozhenie2-спр-контр-аг-l.title'),
-            icon: 'chart bar',
+            icon: 'phone',
             children: null
           }, {
             link: 'i-i-s-prilozhenie2-спр-номен-l',
             caption: i18n.t('forms.application.sitemap.prilozhenie2.i-i-s-prilozhenie2-спр-номен-l.caption'),
             title: i18n.t('forms.application.sitemap.prilozhenie2.i-i-s-prilozhenie2-спр-номен-l.title'),
-            icon: 'tasks',
+            icon: 'briefcase',
             children: null
           }, {
             link: 'i-i-s-prilozhenie2-спр-ед-измер-l',
             caption: i18n.t('forms.application.sitemap.prilozhenie2.i-i-s-prilozhenie2-спр-ед-измер-l.caption'),
             title: i18n.t('forms.application.sitemap.prilozhenie2.i-i-s-prilozhenie2-спр-ед-измер-l.title'),
-            icon: 'edit',
+            icon: 'file',
             children: null
           }, {
             link: 'i-i-s-prilozhenie2-спр-тип-транс-ср-l',
             caption: i18n.t('forms.application.sitemap.prilozhenie2.i-i-s-prilozhenie2-спр-тип-транс-ср-l.caption'),
             title: i18n.t('forms.application.sitemap.prilozhenie2.i-i-s-prilozhenie2-спр-тип-транс-ср-l.title'),
-            icon: 'phone',
+            icon: 'calendar',
             children: null
           }, {
             link: 'i-i-s-prilozhenie2-спр-объект-стр-l',
             caption: i18n.t('forms.application.sitemap.prilozhenie2.i-i-s-prilozhenie2-спр-объект-стр-l.caption'),
             title: i18n.t('forms.application.sitemap.prilozhenie2.i-i-s-prilozhenie2-спр-объект-стр-l.title'),
-            icon: 'archive',
+            icon: 'briefcase',
             children: null
           }, {
             link: 'i-i-s-prilozhenie2-спр-трансп-ср-l',
             caption: i18n.t('forms.application.sitemap.prilozhenie2.i-i-s-prilozhenie2-спр-трансп-ср-l.caption'),
             title: i18n.t('forms.application.sitemap.prilozhenie2.i-i-s-prilozhenie2-спр-трансп-ср-l.title'),
-            icon: 'folder',
+            icon: 'phone',
+            children: null
+          }, {
+            link: 'i-i-s-prilozhenie2-спр-виды-работ-l',
+            caption: i18n.t('forms.application.sitemap.prilozhenie2.i-i-s-prilozhenie2-спр-виды-работ-l.caption'),
+            title: i18n.t('forms.application.sitemap.prilozhenie2.i-i-s-prilozhenie2-спр-виды-работ-l.title'),
+            icon: 'chart line',
             children: null
           }]
         }
