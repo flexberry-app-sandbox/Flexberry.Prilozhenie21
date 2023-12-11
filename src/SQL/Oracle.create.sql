@@ -2,6 +2,19 @@
 
 
 
+CREATE TABLE "СпрЕдИзмер"
+(
+
+	"primaryKey" RAW(16) NOT NULL,
+
+	"Код" NUMBER(10) NULL,
+
+	"Наименование" NVARCHAR2(255) NULL,
+
+	 PRIMARY KEY ("primaryKey")
+) ;
+
+
 CREATE TABLE "СпрКонтрАг"
 (
 
@@ -22,6 +35,23 @@ CREATE TABLE "СпрКонтрАг"
 	"КодОКВЭД" NUMBER(10) NULL,
 
 	"Телефон" NUMBER(10) NULL,
+
+	 PRIMARY KEY ("primaryKey")
+) ;
+
+
+CREATE TABLE "СпрНомен"
+(
+
+	"primaryKey" RAW(16) NOT NULL,
+
+	"Код" NUMBER(10) NULL,
+
+	"Наименование" NVARCHAR2(255) NULL,
+
+	"Описание" NVARCHAR2(255) NULL,
+
+	"СпрЕдИзмер" RAW(16) NOT NULL,
 
 	 PRIMARY KEY ("primaryKey")
 ) ;
@@ -224,6 +254,11 @@ CREATE TABLE "ApplicationLog"
 ) ;
 
 
+
+ALTER TABLE "СпрНомен"
+	ADD CONSTRAINT "СпрНомен_FСпрЕ_737" FOREIGN KEY ("СпрЕдИзмер") REFERENCES "СпрЕдИзмер" ("primaryKey");
+
+CREATE INDEX "СпрНомен_IСпр_9298" on "СпрНомен" ("СпрЕдИзмер");
 
 ALTER TABLE "STORMWEBSEARCH"
 	ADD CONSTRAINT "STORMWEBSEARCH_FSTORMFILT_6521" FOREIGN KEY ("FilterSetting_m0") REFERENCES "STORMFILTERSETTING" ("primaryKey");

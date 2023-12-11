@@ -1,16 +1,24 @@
 import $ from 'jquery';
 import EmberFlexberryTranslations from 'ember-flexberry/locales/en/translations';
 
+import IISPrilozhenie2СпрЕдИзмерLForm from './forms/i-i-s-prilozhenie2-спр-ед-измер-l';
 import IISPrilozhenie2СпрКонтрАгLForm from './forms/i-i-s-prilozhenie2-спр-контр-аг-l';
+import IISPrilozhenie2СпрНоменLForm from './forms/i-i-s-prilozhenie2-спр-номен-l';
+import IISPrilozhenie2СпрЕдИзмерEForm from './forms/i-i-s-prilozhenie2-спр-ед-измер-e';
 import IISPrilozhenie2СпрКонтрАгEForm from './forms/i-i-s-prilozhenie2-спр-контр-аг-e';
+import IISPrilozhenie2СпрНоменEForm from './forms/i-i-s-prilozhenie2-спр-номен-e';
+import IISPrilozhenie2СпрЕдИзмерModel from './models/i-i-s-prilozhenie2-спр-ед-измер';
 import IISPrilozhenie2СпрКонтрАгModel from './models/i-i-s-prilozhenie2-спр-контр-аг';
+import IISPrilozhenie2СпрНоменModel from './models/i-i-s-prilozhenie2-спр-номен';
 
 const translations = {};
 $.extend(true, translations, EmberFlexberryTranslations);
 
 $.extend(true, translations, {
   models: {
-    'i-i-s-prilozhenie2-спр-контр-аг': IISPrilozhenie2СпрКонтрАгModel
+    'i-i-s-prilozhenie2-спр-ед-измер': IISPrilozhenie2СпрЕдИзмерModel,
+    'i-i-s-prilozhenie2-спр-контр-аг': IISPrilozhenie2СпрКонтрАгModel,
+    'i-i-s-prilozhenie2-спр-номен': IISPrilozhenie2СпрНоменModel
   },
 
   'application-name': 'Prilozhenie2',
@@ -82,6 +90,14 @@ $.extend(true, translations, {
           'i-i-s-prilozhenie2-спр-контр-аг-l': {
             caption: 'Справочник контрагенты',
             title: ''
+          },
+          'i-i-s-prilozhenie2-спр-номен-l': {
+            caption: 'Справочник номенклатуры',
+            title: ''
+          },
+          'i-i-s-prilozhenie2-спр-ед-измер-l': {
+            caption: 'Справочник единицы измерения',
+            title: ''
           }
         }
       }
@@ -95,8 +111,12 @@ $.extend(true, translations, {
       'delete-success-message': 'Object deleted',
       'delete-error-message-caption': 'Delete operation failed'
     },
+    'i-i-s-prilozhenie2-спр-ед-измер-l': IISPrilozhenie2СпрЕдИзмерLForm,
     'i-i-s-prilozhenie2-спр-контр-аг-l': IISPrilozhenie2СпрКонтрАгLForm,
-    'i-i-s-prilozhenie2-спр-контр-аг-e': IISPrilozhenie2СпрКонтрАгEForm
+    'i-i-s-prilozhenie2-спр-номен-l': IISPrilozhenie2СпрНоменLForm,
+    'i-i-s-prilozhenie2-спр-ед-измер-e': IISPrilozhenie2СпрЕдИзмерEForm,
+    'i-i-s-prilozhenie2-спр-контр-аг-e': IISPrilozhenie2СпрКонтрАгEForm,
+    'i-i-s-prilozhenie2-спр-номен-e': IISPrilozhenie2СпрНоменEForm
   },
 
 });

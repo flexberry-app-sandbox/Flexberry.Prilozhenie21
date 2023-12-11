@@ -22,7 +22,19 @@ export default Controller.extend({
             link: 'i-i-s-prilozhenie2-спр-контр-аг-l',
             caption: i18n.t('forms.application.sitemap.prilozhenie2.i-i-s-prilozhenie2-спр-контр-аг-l.caption'),
             title: i18n.t('forms.application.sitemap.prilozhenie2.i-i-s-prilozhenie2-спр-контр-аг-l.title'),
-            icon: 'calendar',
+            icon: 'edit',
+            children: null
+          }, {
+            link: 'i-i-s-prilozhenie2-спр-номен-l',
+            caption: i18n.t('forms.application.sitemap.prilozhenie2.i-i-s-prilozhenie2-спр-номен-l.caption'),
+            title: i18n.t('forms.application.sitemap.prilozhenie2.i-i-s-prilozhenie2-спр-номен-l.title'),
+            icon: 'table',
+            children: null
+          }, {
+            link: 'i-i-s-prilozhenie2-спр-ед-измер-l',
+            caption: i18n.t('forms.application.sitemap.prilozhenie2.i-i-s-prilozhenie2-спр-ед-измер-l.caption'),
+            title: i18n.t('forms.application.sitemap.prilozhenie2.i-i-s-prilozhenie2-спр-ед-измер-l.title'),
+            icon: 'tasks',
             children: null
           }]
         }

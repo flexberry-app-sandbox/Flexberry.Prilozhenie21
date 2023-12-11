@@ -2,6 +2,17 @@
 
 
 
+CREATE TABLE [СпрЕдИзмер] (
+
+	 [primaryKey] UNIQUEIDENTIFIER  NOT NULL,
+
+	 [Код] INT  NULL,
+
+	 [Наименование] VARCHAR(255)  NULL,
+
+	 PRIMARY KEY ([primaryKey]))
+
+
 CREATE TABLE [СпрКонтрАг] (
 
 	 [primaryKey] UNIQUEIDENTIFIER  NOT NULL,
@@ -21,6 +32,21 @@ CREATE TABLE [СпрКонтрАг] (
 	 [ОГРН] INT  NULL,
 
 	 [Телефон] INT  NULL,
+
+	 PRIMARY KEY ([primaryKey]))
+
+
+CREATE TABLE [СпрНомен] (
+
+	 [primaryKey] UNIQUEIDENTIFIER  NOT NULL,
+
+	 [Код] INT  NULL,
+
+	 [Наименование] VARCHAR(255)  NULL,
+
+	 [Описание] VARCHAR(255)  NULL,
+
+	 [СпрЕдИзмер] UNIQUEIDENTIFIER  NOT NULL,
 
 	 PRIMARY KEY ([primaryKey]))
 

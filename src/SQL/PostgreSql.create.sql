@@ -3,6 +3,13 @@
 
 
 
+CREATE TABLE СпрЕдИзмер (
+ primaryKey UUID NOT NULL,
+ Код INT NULL,
+ Наименование VARCHAR(255) NULL,
+ PRIMARY KEY (primaryKey));
+
+
 CREATE TABLE СпрКонтрАг (
  primaryKey UUID NOT NULL,
  Код INT NULL,
@@ -13,6 +20,15 @@ CREATE TABLE СпрКонтрАг (
  ОГРН INT NULL,
  КодОКВЭД INT NULL,
  Телефон INT NULL,
+ PRIMARY KEY (primaryKey));
+
+
+CREATE TABLE СпрНомен (
+ primaryKey UUID NOT NULL,
+ Код INT NULL,
+ Наименование VARCHAR(255) NULL,
+ Описание VARCHAR(255) NULL,
+ СпрЕдИзмер UUID NOT NULL,
  PRIMARY KEY (primaryKey));
 
 
@@ -119,6 +135,9 @@ CREATE TABLE ApplicationLog (
  PRIMARY KEY (primaryKey));
 
 
+
+ ALTER TABLE СпрНомен ADD CONSTRAINT FK840c81fedf20e0a82183dd6fd7f6953d4bf35c43 FOREIGN KEY (СпрЕдИзмер) REFERENCES СпрЕдИзмер; 
+CREATE INDEX Index840c81fedf20e0a82183dd6fd7f6953d4bf35c43 on СпрНомен (СпрЕдИзмер); 
 
  ALTER TABLE STORMWEBSEARCH ADD CONSTRAINT FKc4378e39870eb056aec84088683297a01d2a6200 FOREIGN KEY (FilterSetting_m0) REFERENCES STORMFILTERSETTING; 
 

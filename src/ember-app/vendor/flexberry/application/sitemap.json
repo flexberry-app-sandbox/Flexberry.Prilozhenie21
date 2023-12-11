@@ -14,6 +14,20 @@
           "caption": "Справочник контрагенты",
           "title": "",
           "children": null
+        },
+        {
+          "link": "i-i-s-prilozhenie2-спр-номен-l",
+          "menuName": null,
+          "caption": "Справочник номенклатуры",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-prilozhenie2-спр-ед-измер-l",
+          "menuName": null,
+          "caption": "Справочник единицы измерения",
+          "title": "",
+          "children": null
         }
       ]
     }
