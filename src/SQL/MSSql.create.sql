@@ -89,6 +89,10 @@ CREATE TABLE [СпрВидыРаб] (
 
 	 [Наименование] VARCHAR(255)  NULL,
 
+	 [СпрЕдИзмер] UNIQUEIDENTIFIER  NOT NULL,
+
+	 [СпрТипТрансСр] UNIQUEIDENTIFIER  NOT NULL,
+
 	 PRIMARY KEY ([primaryKey]))
 
 

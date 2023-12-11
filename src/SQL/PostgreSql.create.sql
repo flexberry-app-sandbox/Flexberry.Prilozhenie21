@@ -54,6 +54,8 @@ CREATE TABLE СпрВидыРаб (
  primaryKey UUID NOT NULL,
  Код INT NULL,
  Наименование VARCHAR(255) NULL,
+ СпрЕдИзмер UUID NOT NULL,
+ СпрТипТрансСр UUID NOT NULL,
  PRIMARY KEY (primaryKey));
 
 
@@ -169,6 +171,12 @@ CREATE TABLE ApplicationLog (
  PRIMARY KEY (primaryKey));
 
 
+
+ ALTER TABLE СпрВидыРаб ADD CONSTRAINT FK105cacd2a93f6230c3c135143070c3ef1c4dd0c1 FOREIGN KEY (СпрЕдИзмер) REFERENCES СпрЕдИзмер; 
+CREATE INDEX Index105cacd2a93f6230c3c135143070c3ef1c4dd0c1 on СпрВидыРаб (СпрЕдИзмер); 
+
+ ALTER TABLE СпрВидыРаб ADD CONSTRAINT FKa7034f7bceece13908821312b7a842afbbddb0e3 FOREIGN KEY (СпрТипТрансСр) REFERENCES СпрТипТрансСр; 
+CREATE INDEX Indexa7034f7bceece13908821312b7a842afbbddb0e3 on СпрВидыРаб (СпрТипТрансСр); 
 
  ALTER TABLE СпрНомен ADD CONSTRAINT FK840c81fedf20e0a82183dd6fd7f6953d4bf35c43 FOREIGN KEY (СпрЕдИзмер) REFERENCES СпрЕдИзмер; 
 CREATE INDEX Index840c81fedf20e0a82183dd6fd7f6953d4bf35c43 on СпрНомен (СпрЕдИзмер); 

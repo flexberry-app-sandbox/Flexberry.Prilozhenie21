@@ -1,5 +1,22 @@
 ﻿{
-  "propertyLookup": [],
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "СпрЕдИзмер",
+      "projection": "СпрЕдИзмерL",
+      "detailModelName": null
+    },
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "СпрТипТрансСр",
+      "projection": "СпрТипТрансСрL",
+      "detailModelName": null
+    }
+  ],
   "external": false,
   "caption": "",
   "name": "IISPrilozhenie2СпрВидыРаботE",

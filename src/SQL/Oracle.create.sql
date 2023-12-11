@@ -100,6 +100,10 @@ CREATE TABLE "СпрВидыРаб"
 
 	"Наименование" NVARCHAR2(255) NULL,
 
+	"СпрЕдИзмер" RAW(16) NOT NULL,
+
+	"СпрТипТрансСр" RAW(16) NOT NULL,
+
 	 PRIMARY KEY ("primaryKey")
 ) ;
 
@@ -318,6 +322,16 @@ CREATE TABLE "ApplicationLog"
 ) ;
 
 
+
+ALTER TABLE "СпрВидыРаб"
+	ADD CONSTRAINT "СпрВидыРаб_FС_5946" FOREIGN KEY ("СпрЕдИзмер") REFERENCES "СпрЕдИзмер" ("primaryKey");
+
+CREATE INDEX "СпрВидыРаб_IС_3676" on "СпрВидыРаб" ("СпрЕдИзмер");
+
+ALTER TABLE "СпрВидыРаб"
+	ADD CONSTRAINT "СпрВидыРаб_FС_7847" FOREIGN KEY ("СпрТипТрансСр") REFERENCES "СпрТипТрансСр" ("primaryKey");
+
+CREATE INDEX "СпрВидыРаб_IС_5706" on "СпрВидыРаб" ("СпрТипТрансСр");
 
 ALTER TABLE "СпрНомен"
 	ADD CONSTRAINT "СпрНомен_FСпрЕ_737" FOREIGN KEY ("СпрЕдИзмер") REFERENCES "СпрЕдИзмер" ("primaryKey");

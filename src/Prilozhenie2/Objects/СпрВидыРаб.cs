@@ -31,16 +31,26 @@ namespace IIS.Prilozhenie2
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
     [View("СпрВидыРаботE", new string[] {
             "Код as \'Код\'",
-            "Наименование as \'Наименование\'"})]
+            "Наименование as \'Наименование\'",
+            "СпрЕдИзмер as \'Единица измерения\'",
+            "СпрЕдИзмер.Наименование as \'Единица измерения\'",
+            "СпрТипТрансСр as \'Тип транспортного средства\'",
+            "СпрТипТрансСр.Наименование as \'Тип транспортного средства\'"})]
     [View("СпрВидыРаботL", new string[] {
             "Код as \'Код\'",
-            "Наименование as \'Наименование\'"})]
+            "Наименование as \'Наименование\'",
+            "СпрЕдИзмер.Наименование as \'Единица измерения\'",
+            "СпрТипТрансСр.Наименование as \'Тип транспортного средства\'"})]
     public class СпрВидыРаб : ICSSoft.STORMNET.DataObject
     {
         
         private int fКод;
         
         private string fНаименование;
+        
+        private IIS.Prilozhenie2.СпрЕдИзмер fСпрЕдИзмер;
+        
+        private IIS.Prilozhenie2.СпрТипТрансСр fСпрТипТрансСр;
         
         // *** Start programmer edit section *** (СпрВидыРаб CustomMembers)
 
@@ -107,6 +117,74 @@ namespace IIS.Prilozhenie2
                 // *** Start programmer edit section *** (СпрВидыРаб.Наименование Set end)
 
                 // *** End programmer edit section *** (СпрВидыРаб.Наименование Set end)
+            }
+        }
+        
+        /// <summary>
+        /// СпрВидыРаб.
+        /// </summary>
+        // *** Start programmer edit section *** (СпрВидыРаб.СпрЕдИзмер CustomAttributes)
+
+        // *** End programmer edit section *** (СпрВидыРаб.СпрЕдИзмер CustomAttributes)
+        [PropertyStorage(new string[] {
+                "СпрЕдИзмер"})]
+        [NotNull()]
+        public virtual IIS.Prilozhenie2.СпрЕдИзмер СпрЕдИзмер
+        {
+            get
+            {
+                // *** Start programmer edit section *** (СпрВидыРаб.СпрЕдИзмер Get start)
+
+                // *** End programmer edit section *** (СпрВидыРаб.СпрЕдИзмер Get start)
+                IIS.Prilozhenie2.СпрЕдИзмер result = this.fСпрЕдИзмер;
+                // *** Start programmer edit section *** (СпрВидыРаб.СпрЕдИзмер Get end)
+
+                // *** End programmer edit section *** (СпрВидыРаб.СпрЕдИзмер Get end)
+                return result;
+            }
+            set
+            {
+                // *** Start programmer edit section *** (СпрВидыРаб.СпрЕдИзмер Set start)
+
+                // *** End programmer edit section *** (СпрВидыРаб.СпрЕдИзмер Set start)
+                this.fСпрЕдИзмер = value;
+                // *** Start programmer edit section *** (СпрВидыРаб.СпрЕдИзмер Set end)
+
+                // *** End programmer edit section *** (СпрВидыРаб.СпрЕдИзмер Set end)
+            }
+        }
+        
+        /// <summary>
+        /// СпрВидыРаб.
+        /// </summary>
+        // *** Start programmer edit section *** (СпрВидыРаб.СпрТипТрансСр CustomAttributes)
+
+        // *** End programmer edit section *** (СпрВидыРаб.СпрТипТрансСр CustomAttributes)
+        [PropertyStorage(new string[] {
+                "СпрТипТрансСр"})]
+        [NotNull()]
+        public virtual IIS.Prilozhenie2.СпрТипТрансСр СпрТипТрансСр
+        {
+            get
+            {
+                // *** Start programmer edit section *** (СпрВидыРаб.СпрТипТрансСр Get start)
+
+                // *** End programmer edit section *** (СпрВидыРаб.СпрТипТрансСр Get start)
+                IIS.Prilozhenie2.СпрТипТрансСр result = this.fСпрТипТрансСр;
+                // *** Start programmer edit section *** (СпрВидыРаб.СпрТипТрансСр Get end)
+
+                // *** End programmer edit section *** (СпрВидыРаб.СпрТипТрансСр Get end)
+                return result;
+            }
+            set
+            {
+                // *** Start programmer edit section *** (СпрВидыРаб.СпрТипТрансСр Set start)
+
+                // *** End programmer edit section *** (СпрВидыРаб.СпрТипТрансСр Set start)
+                this.fСпрТипТрансСр = value;
+                // *** Start programmer edit section *** (СпрВидыРаб.СпрТипТрансСр Set end)
+
+                // *** End programmer edit section *** (СпрВидыРаб.СпрТипТрансСр Set end)
             }
         }
         
