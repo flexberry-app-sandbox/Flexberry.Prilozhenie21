@@ -9,6 +9,7 @@ moduleForModel('i-i-s-prilozhenie2-спр-номен', 'Unit | Serializer | i-i-
     'transform:decimal',
     'transform:guid',
 
+    'model:i-i-s-prilozhenie2-спр-виды-раб',
     'model:i-i-s-prilozhenie2-спр-ед-измер',
     'model:i-i-s-prilozhenie2-спр-контр-аг',
     'model:i-i-s-prilozhenie2-спр-номен',

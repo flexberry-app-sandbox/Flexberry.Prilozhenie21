@@ -7,6 +7,7 @@ import { attr, belongsTo, hasMany } from 'ember-flexberry-data/utils/attributes'
 export let Model = Mixin.create({
   вместВКубМ: DS.attr('decimal'),
   код: DS.attr('number'),
+  наименование: DS.attr('string'),
   описание: DS.attr('string')
 });
 
@@ -25,6 +26,12 @@ export let ValidationRules = {
       validator('number', { allowString: true, allowBlank: true, integer: true }),
     ],
   },
+  наименование: {
+    descriptionKey: 'models.i-i-s-prilozhenie2-спр-тип-транс-ср.validations.наименование.__caption__',
+    validators: [
+      validator('ds-error'),
+    ],
+  },
   описание: {
     descriptionKey: 'models.i-i-s-prilozhenie2-спр-тип-транс-ср.validations.описание.__caption__',
     validators: [
@@ -36,13 +43,15 @@ export let ValidationRules = {
 export let defineProjections = function (modelClass) {
   modelClass.defineProjection('СпрТипТрансСрE', 'i-i-s-prilozhenie2-спр-тип-транс-ср', {
     код: attr('Код', { index: 0 }),
-    описание: attr('Описание', { index: 1 }),
-    вместВКубМ: attr('Вместимость в кубических метрах', { index: 2 })
+    наименование: attr('Наименование', { index: 1 }),
+    описание: attr('Описание', { index: 2 }),
+    вместВКубМ: attr('Вместимость в кубических метрах', { index: 3 })
   });
 
   modelClass.defineProjection('СпрТипТрансСрL', 'i-i-s-prilozhenie2-спр-тип-транс-ср', {
     код: attr('Код', { index: 0 }),
-    описание: attr('Описание', { index: 1 }),
-    вместВКубМ: attr('Вместимость в кубических метрах', { index: 2 })
+    наименование: attr('Наименование', { index: 1 }),
+    описание: attr('Описание', { index: 2 }),
+    вместВКубМ: attr('Вместимость в кубических метрах', { index: 3 })
   });
 };

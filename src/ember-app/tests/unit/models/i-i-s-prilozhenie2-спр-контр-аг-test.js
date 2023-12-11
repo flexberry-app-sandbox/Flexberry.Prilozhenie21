@@ -3,6 +3,7 @@ import { moduleForModel, test } from 'ember-qunit';
 moduleForModel('i-i-s-prilozhenie2-спр-контр-аг', 'Unit | Model | i-i-s-prilozhenie2-спр-контр-аг', {
   // Specify the other units that are required for this test.
   needs: [
+    'model:i-i-s-prilozhenie2-спр-виды-раб',
     'model:i-i-s-prilozhenie2-спр-ед-измер',
     'model:i-i-s-prilozhenie2-спр-контр-аг',
     'model:i-i-s-prilozhenie2-спр-номен',

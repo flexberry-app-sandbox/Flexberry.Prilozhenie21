@@ -33,6 +33,7 @@ CREATE TABLE СпрТипТрансСр (
  Код INT NULL,
  Описание VARCHAR(255) NULL,
  ВместВКубМ REAL NULL,
+ Наименование VARCHAR(255) NULL,
  PRIMARY KEY (primaryKey));
 
 
@@ -46,6 +47,13 @@ CREATE TABLE СпрКонтрАг (
  ОГРН INT NULL,
  КодОКВЭД INT NULL,
  Телефон INT NULL,
+ PRIMARY KEY (primaryKey));
+
+
+CREATE TABLE СпрВидыРаб (
+ primaryKey UUID NOT NULL,
+ Код INT NULL,
+ Наименование VARCHAR(255) NULL,
  PRIMARY KEY (primaryKey));
 
 

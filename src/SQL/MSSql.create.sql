@@ -51,6 +51,8 @@ CREATE TABLE [СпрТипТрансСр] (
 
 	 [Код] INT  NULL,
 
+	 [Наименование] VARCHAR(255)  NULL,
+
 	 [Описание] VARCHAR(255)  NULL,
 
 	 PRIMARY KEY ([primaryKey]))
@@ -75,6 +77,17 @@ CREATE TABLE [СпрКонтрАг] (
 	 [ОГРН] INT  NULL,
 
 	 [Телефон] INT  NULL,
+
+	 PRIMARY KEY ([primaryKey]))
+
+
+CREATE TABLE [СпрВидыРаб] (
+
+	 [primaryKey] UNIQUEIDENTIFIER  NOT NULL,
+
+	 [Код] INT  NULL,
+
+	 [Наименование] VARCHAR(255)  NULL,
 
 	 PRIMARY KEY ([primaryKey]))
 

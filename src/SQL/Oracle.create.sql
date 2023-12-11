@@ -60,6 +60,8 @@ CREATE TABLE "СпрТипТрансСр"
 
 	"ВместВКубМ" FLOAT(53) NULL,
 
+	"Наименование" NVARCHAR2(255) NULL,
+
 	 PRIMARY KEY ("primaryKey")
 ) ;
 
@@ -84,6 +86,19 @@ CREATE TABLE "СпрКонтрАг"
 	"КодОКВЭД" NUMBER(10) NULL,
 
 	"Телефон" NUMBER(10) NULL,
+
+	 PRIMARY KEY ("primaryKey")
+) ;
+
+
+CREATE TABLE "СпрВидыРаб"
+(
+
+	"primaryKey" RAW(16) NOT NULL,
+
+	"Код" NUMBER(10) NULL,
+
+	"Наименование" NVARCHAR2(255) NULL,
 
 	 PRIMARY KEY ("primaryKey")
 ) ;

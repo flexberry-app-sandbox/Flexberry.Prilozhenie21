@@ -1,18 +1,21 @@
 import $ from 'jquery';
 import EmberFlexberryTranslations from 'ember-flexberry/locales/ru/translations';
 
+import IISPrilozhenie2СпрВидыРаботLForm from './forms/i-i-s-prilozhenie2-спр-виды-работ-l';
 import IISPrilozhenie2СпрЕдИзмерLForm from './forms/i-i-s-prilozhenie2-спр-ед-измер-l';
 import IISPrilozhenie2СпрКонтрАгLForm from './forms/i-i-s-prilozhenie2-спр-контр-аг-l';
 import IISPrilozhenie2СпрНоменLForm from './forms/i-i-s-prilozhenie2-спр-номен-l';
 import IISPrilozhenie2СпрОбъектСтрLForm from './forms/i-i-s-prilozhenie2-спр-объект-стр-l';
 import IISPrilozhenie2СпрТипТрансСрLForm from './forms/i-i-s-prilozhenie2-спр-тип-транс-ср-l';
 import IISPrilozhenie2СпрТранспСрLForm from './forms/i-i-s-prilozhenie2-спр-трансп-ср-l';
+import IISPrilozhenie2СпрВидыРаботEForm from './forms/i-i-s-prilozhenie2-спр-виды-работ-e';
 import IISPrilozhenie2СпрЕдИзмерEForm from './forms/i-i-s-prilozhenie2-спр-ед-измер-e';
 import IISPrilozhenie2СпрКонтрАгEForm from './forms/i-i-s-prilozhenie2-спр-контр-аг-e';
 import IISPrilozhenie2СпрНоменEForm from './forms/i-i-s-prilozhenie2-спр-номен-e';
 import IISPrilozhenie2СпрОбъектСтрEForm from './forms/i-i-s-prilozhenie2-спр-объект-стр-e';
 import IISPrilozhenie2СпрТипТрансСрEForm from './forms/i-i-s-prilozhenie2-спр-тип-транс-ср-e';
 import IISPrilozhenie2СпрТранспСрEForm from './forms/i-i-s-prilozhenie2-спр-трансп-ср-e';
+import IISPrilozhenie2СпрВидыРабModel from './models/i-i-s-prilozhenie2-спр-виды-раб';
 import IISPrilozhenie2СпрЕдИзмерModel from './models/i-i-s-prilozhenie2-спр-ед-измер';
 import IISPrilozhenie2СпрКонтрАгModel from './models/i-i-s-prilozhenie2-спр-контр-аг';
 import IISPrilozhenie2СпрНоменModel from './models/i-i-s-prilozhenie2-спр-номен';
@@ -25,6 +28,7 @@ $.extend(true, translations, EmberFlexberryTranslations);
 
 $.extend(true, translations, {
   models: {
+    'i-i-s-prilozhenie2-спр-виды-раб': IISPrilozhenie2СпрВидыРабModel,
     'i-i-s-prilozhenie2-спр-ед-измер': IISPrilozhenie2СпрЕдИзмерModel,
     'i-i-s-prilozhenie2-спр-контр-аг': IISPrilozhenie2СпрКонтрАгModel,
     'i-i-s-prilozhenie2-спр-номен': IISPrilozhenie2СпрНоменModel,
@@ -135,12 +139,14 @@ $.extend(true, translations, {
       'delete-success-message': 'Объект удален',
       'delete-error-message-caption': 'Ошибка удаления'
     },
+    'i-i-s-prilozhenie2-спр-виды-работ-l': IISPrilozhenie2СпрВидыРаботLForm,
     'i-i-s-prilozhenie2-спр-ед-измер-l': IISPrilozhenie2СпрЕдИзмерLForm,
     'i-i-s-prilozhenie2-спр-контр-аг-l': IISPrilozhenie2СпрКонтрАгLForm,
     'i-i-s-prilozhenie2-спр-номен-l': IISPrilozhenie2СпрНоменLForm,
     'i-i-s-prilozhenie2-спр-объект-стр-l': IISPrilozhenie2СпрОбъектСтрLForm,
     'i-i-s-prilozhenie2-спр-тип-транс-ср-l': IISPrilozhenie2СпрТипТрансСрLForm,
     'i-i-s-prilozhenie2-спр-трансп-ср-l': IISPrilozhenie2СпрТранспСрLForm,
+    'i-i-s-prilozhenie2-спр-виды-работ-e': IISPrilozhenie2СпрВидыРаботEForm,
     'i-i-s-prilozhenie2-спр-ед-измер-e': IISPrilozhenie2СпрЕдИзмерEForm,
     'i-i-s-prilozhenie2-спр-контр-аг-e': IISPrilozhenie2СпрКонтрАгEForm,
     'i-i-s-prilozhenie2-спр-номен-e': IISPrilozhenie2СпрНоменEForm,
