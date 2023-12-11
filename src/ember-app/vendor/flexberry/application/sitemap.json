@@ -35,6 +35,13 @@
           "caption": "Справочник типы транспортного средства",
           "title": "",
           "children": null
+        },
+        {
+          "link": "i-i-s-prilozhenie2-спр-объект-стр-l",
+          "menuName": null,
+          "caption": "Справочник объекты строительства",
+          "title": "",
+          "children": null
         }
       ]
     }

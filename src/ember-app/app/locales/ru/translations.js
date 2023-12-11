@@ -4,14 +4,17 @@ import EmberFlexberryTranslations from 'ember-flexberry/locales/ru/translations'
 import IISPrilozhenie2СпрЕдИзмерLForm from './forms/i-i-s-prilozhenie2-спр-ед-измер-l';
 import IISPrilozhenie2СпрКонтрАгLForm from './forms/i-i-s-prilozhenie2-спр-контр-аг-l';
 import IISPrilozhenie2СпрНоменLForm from './forms/i-i-s-prilozhenie2-спр-номен-l';
+import IISPrilozhenie2СпрОбъектСтрLForm from './forms/i-i-s-prilozhenie2-спр-объект-стр-l';
 import IISPrilozhenie2СпрТипТрансСрLForm from './forms/i-i-s-prilozhenie2-спр-тип-транс-ср-l';
 import IISPrilozhenie2СпрЕдИзмерEForm from './forms/i-i-s-prilozhenie2-спр-ед-измер-e';
 import IISPrilozhenie2СпрКонтрАгEForm from './forms/i-i-s-prilozhenie2-спр-контр-аг-e';
 import IISPrilozhenie2СпрНоменEForm from './forms/i-i-s-prilozhenie2-спр-номен-e';
+import IISPrilozhenie2СпрОбъектСтрEForm from './forms/i-i-s-prilozhenie2-спр-объект-стр-e';
 import IISPrilozhenie2СпрТипТрансСрEForm from './forms/i-i-s-prilozhenie2-спр-тип-транс-ср-e';
 import IISPrilozhenie2СпрЕдИзмерModel from './models/i-i-s-prilozhenie2-спр-ед-измер';
 import IISPrilozhenie2СпрКонтрАгModel from './models/i-i-s-prilozhenie2-спр-контр-аг';
 import IISPrilozhenie2СпрНоменModel from './models/i-i-s-prilozhenie2-спр-номен';
+import IISPrilozhenie2СпрОбъектСтрModel from './models/i-i-s-prilozhenie2-спр-объект-стр';
 import IISPrilozhenie2СпрТипТрансСрModel from './models/i-i-s-prilozhenie2-спр-тип-транс-ср';
 
 const translations = {};
@@ -22,6 +25,7 @@ $.extend(true, translations, {
     'i-i-s-prilozhenie2-спр-ед-измер': IISPrilozhenie2СпрЕдИзмерModel,
     'i-i-s-prilozhenie2-спр-контр-аг': IISPrilozhenie2СпрКонтрАгModel,
     'i-i-s-prilozhenie2-спр-номен': IISPrilozhenie2СпрНоменModel,
+    'i-i-s-prilozhenie2-спр-объект-стр': IISPrilozhenie2СпрОбъектСтрModel,
     'i-i-s-prilozhenie2-спр-тип-транс-ср': IISPrilozhenie2СпрТипТрансСрModel
   },
 
@@ -106,6 +110,10 @@ $.extend(true, translations, {
           'i-i-s-prilozhenie2-спр-тип-транс-ср-l': {
             caption: 'Справочник типы транспортного средства',
             title: ''
+          },
+          'i-i-s-prilozhenie2-спр-объект-стр-l': {
+            caption: 'Справочник объекты строительства',
+            title: ''
           }
         }
       }
@@ -122,10 +130,12 @@ $.extend(true, translations, {
     'i-i-s-prilozhenie2-спр-ед-измер-l': IISPrilozhenie2СпрЕдИзмерLForm,
     'i-i-s-prilozhenie2-спр-контр-аг-l': IISPrilozhenie2СпрКонтрАгLForm,
     'i-i-s-prilozhenie2-спр-номен-l': IISPrilozhenie2СпрНоменLForm,
+    'i-i-s-prilozhenie2-спр-объект-стр-l': IISPrilozhenie2СпрОбъектСтрLForm,
     'i-i-s-prilozhenie2-спр-тип-транс-ср-l': IISPrilozhenie2СпрТипТрансСрLForm,
     'i-i-s-prilozhenie2-спр-ед-измер-e': IISPrilozhenie2СпрЕдИзмерEForm,
     'i-i-s-prilozhenie2-спр-контр-аг-e': IISPrilozhenie2СпрКонтрАгEForm,
     'i-i-s-prilozhenie2-спр-номен-e': IISPrilozhenie2СпрНоменEForm,
+    'i-i-s-prilozhenie2-спр-объект-стр-e': IISPrilozhenie2СпрОбъектСтрEForm,
     'i-i-s-prilozhenie2-спр-тип-транс-ср-e': IISPrilozhenie2СпрТипТрансСрEForm
   },
 

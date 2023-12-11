@@ -2,6 +2,17 @@
 
 
 
+CREATE TABLE [СпрОбъектСтр] (
+
+	 [primaryKey] UNIQUEIDENTIFIER  NOT NULL,
+
+	 [Код] INT  NULL,
+
+	 [Наименование] VARCHAR(255)  NULL,
+
+	 PRIMARY KEY ([primaryKey]))
+
+
 CREATE TABLE [СпрЕдИзмер] (
 
 	 [primaryKey] UNIQUEIDENTIFIER  NOT NULL,

@@ -3,6 +3,13 @@
 
 
 
+CREATE TABLE СпрОбъектСтр (
+ primaryKey UUID NOT NULL,
+ Код INT NULL,
+ Наименование VARCHAR(255) NULL,
+ PRIMARY KEY (primaryKey));
+
+
 CREATE TABLE СпрЕдИзмер (
  primaryKey UUID NOT NULL,
  Код INT NULL,

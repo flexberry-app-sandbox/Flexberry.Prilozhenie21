@@ -2,6 +2,19 @@
 
 
 
+CREATE TABLE "СпрОбъектСтр"
+(
+
+	"primaryKey" RAW(16) NOT NULL,
+
+	"Код" NUMBER(10) NULL,
+
+	"Наименование" NVARCHAR2(255) NULL,
+
+	 PRIMARY KEY ("primaryKey")
+) ;
+
+
 CREATE TABLE "СпрЕдИзмер"
 (
 

@@ -12,6 +12,7 @@ moduleForModel('i-i-s-prilozhenie2-спр-ед-измер', 'Unit | Serializer |
     'model:i-i-s-prilozhenie2-спр-ед-измер',
     'model:i-i-s-prilozhenie2-спр-контр-аг',
     'model:i-i-s-prilozhenie2-спр-номен',
+    'model:i-i-s-prilozhenie2-спр-объект-стр',
     'model:i-i-s-prilozhenie2-спр-тип-транс-ср',
     'validator:ds-error',
     'validator:presence',
